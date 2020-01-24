@@ -33,7 +33,6 @@ trans_number = {"Home": "home",
                 "Work": "work"
                 }
 typePattern = re.compile("(Phone )\\d{1,2}( - Type)")
-numberPattern = re.compile("(Phone )\\d{1,2}( - Value)")
 
 # open csv in reading mode
 with open(filename_in, "r") as file:
